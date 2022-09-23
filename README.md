@@ -1,9 +1,9 @@
-# Vite + TailwindCSS (no framework)
+# HW-5
 
-`npm start` will...start the `localhost:3000` server.
+Don't forget to run `npm i`. Then, `npm start` to open the app in your browser.
 
-There is some opinionated/standard stuff included for ESLint and Prettier. These are wired up to do some automatic things in VS Code via [`settings.json`](./.vscode/settings.json). For example, as soon as you leave the file it will auto save, format and even fix linting stuff for you. If that's too much, you may want to reconfigure it.
+## Instructions
 
-Finally, there are a few [recommended extensions](./.vscode/extensions.json). You'll probably want these.
+[Video](https://www.loom.com/share/14494c9160a44668a6260b38bfea2be8)
 
-Hope it helps. Give it a ⭐, will ya? 🤓
+**Hint:** `.value = Number(input.value) + 1;` Use this in your callback function to increment the value of the input. You just have to figure out the rest of this line of code.

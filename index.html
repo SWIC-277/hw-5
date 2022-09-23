@@ -8,12 +8,32 @@
     <link rel="stylesheet" href="./src/style.css" />
     <title>Vite ➕ Tailwind</title>
   </head>
-  <body>
-    <h1
-      class="text-center text-3xl font-semibold text-red-500 transition-all md:text-5xl"
+  <body class="flex flex-col items-center gap-y-16">
+    <form
+      class="container mx-auto my-8 flex max-w-sm flex-col items-center gap-y-4 rounded-xl border-2 p-4"
     >
-      Hello
-    </h1>
+      <div class="flex gap-2">
+        <label for="count">Count</label>
+        <input
+          type="number"
+          id="count"
+          disabled
+          class="w-16 rounded border pl-1"
+        />
+      </div>
+
+      <button type="submit" class="rounded bg-green-500 px-4 py-2 text-white">
+        Submit
+      </button>
+    </form>
+
+    <button
+      id="increment"
+      type="button"
+      class="rounded bg-blue-500 px-16 py-8 text-5xl text-white transition-colors hover:bg-blue-700"
+    >
+      Increment
+    </button>
 
     <script type="module" src="./src/index.js"></script>
   </body>
